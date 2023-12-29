@@ -1,2 +1,6 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import HomeSelection from "./HomeSelection.svelte";
+</script>
+
+<h2 class="flex justify-center">What would you like to do?</h2>
+<HomeSelection />
