@@ -2,5 +2,6 @@
 	import HomeSelection from "./HomeSelection.svelte";
 </script>
 
-<h2 class="flex justify-center">What would you like to do?</h2>
-<HomeSelection />
+<div class="flex flex-col gap-4">
+    <HomeSelection />
+</div>
